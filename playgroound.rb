@@ -53,7 +53,10 @@ p "The result is #{result}."
 
 
 
-# p "The first number multiplied by the second number is: #{multiply(f_number, s_number)}" 
-# p "The first number divided by the second number is: #{devide(f_number, s_number)}"
-# p "The first number subtracted from the second number is: #{subtract(s_number, f_number)}"
-# p "The first number mod the second number is: #{mod(f_number, s_number)}"
+p "The first number multiplied by the second number is: #{multiply(f_number, s_number)}" 
+p "The first number divided by the second number is: #{devide(f_number, s_number)}"
+p "The first number subtracted from the second number is: #{subtract(s_number, f_number)}"
+p "The first number mod the second number is: #{mod(f_number, s_number)}"
+
+
+
