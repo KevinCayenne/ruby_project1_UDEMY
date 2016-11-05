@@ -17,6 +17,7 @@ end
 
 def get_area_code(somehash, key)
 	somehash[key]
+end
 
 loop  do	
 	p "Do you want to look up an erea code based on city name? (Y/N)"
@@ -33,7 +34,7 @@ loop  do
 
 
 	if dial_book.include?(promte)
-		p "Valid selection"
+		p "The area code for #{promte} is #{get_area_code(dial_book, promte)}"
 	else
 		p "You entered a city name not in the dictionary"
 	end
