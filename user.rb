@@ -1,12 +1,13 @@
 class User
 
-	attr_accessor :name
-	def initialize(name)
+	attr_accessor :name, :email
+	def initialize(name, email)
 		@name = name
+		@email = email
 	end 
 
-	def run 
-		p "Hey I'm runnung!"
+	def run 	
+		p "Hey I'm runnung!"	
 	end
 
 	# def get_name
@@ -19,10 +20,11 @@ class User
 
 end
 
-user = User.new("John")
-p user.name
+user = User.new("John", "John@gmail.com")
+p "My user's name is #{user.name} and his email is #{user.email}" 
 user.name = "Kevin"
-p user.name
+user.email = "kevin81319@gmail.com"
+p "My user's neme is #{user.name} and his email is #{user.email}"  
 
 # user1 = User.new("Kevin")
 # user2 = User.new("Hacker")
