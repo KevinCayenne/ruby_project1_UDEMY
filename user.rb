@@ -49,10 +49,8 @@ end
 
 # User.identify_yourself
 
-user = User.new("John", "John@gmail.com")
-user.destroy("myname")
-
-
+# user = User.new("John", "John@gmail.com")
+# user.destroy("myname")
 
 # p "My user's name is #{user.name} and his email is #{user.email}" 
 # user.name = "Kevin"
